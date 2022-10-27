@@ -27,5 +27,8 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'react/jsx-props-no-spreading': 0,
     'linebreak-style': 0,
+    'jsx-a11y/anchor-is-valid': 0,
+    'max-len': 1,
+    'react/no-array-index-key': 1,
   },
 };

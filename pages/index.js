@@ -1,14 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import About from '../components/About/About';
+import HeroSection from '../components/HeroSection/HeroSection';
 
 export default function Home() {
-  const [count, setCount] = useState(0);
-  useEffect(() => {
-    console.log(count);
-  }, []);
-
   return (
-    <div>
-      Hello World
-    </div>
+    <>
+      <HeroSection />
+      <About />
+    </>
   );
 }
